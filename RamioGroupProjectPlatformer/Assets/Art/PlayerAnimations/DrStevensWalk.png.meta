@@ -1,49 +1,31 @@
 fileFormatVersion: 2
-guid: d3545022bd83d8b4291f57e735df851c
+guid: 8283a0ae4b792da4ca5b5689077eba01
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9071791986080300385
-    second: Level2BuildingTiles_0
+      213: 2267634151290194839
+    second: DrStevensWalk_0
   - first:
-      213: 1620568786838972460
-    second: Level2BuildingTiles_1
+      213: 4677210135656368333
+    second: DrStevensWalk_1
   - first:
-      213: -4844491849772813857
-    second: Level2BuildingTiles_2
+      213: -7849968152753590315
+    second: DrStevensWalk_2
   - first:
-      213: -4329453232844878458
-    second: Level2BuildingTiles_3
+      213: 8665239528268206720
+    second: DrStevensWalk_3
   - first:
-      213: -361116452925658432
-    second: Level2BuildingTiles_4
+      213: -7271652426451271422
+    second: DrStevensWalk_4
   - first:
-      213: -4952733411483476995
-    second: Level2BuildingTiles_5
+      213: -4983779833774795735
+    second: DrStevensWalk_5
   - first:
-      213: 2298599683008967561
-    second: Level2BuildingTiles_6
+      213: 7853625615377508592
+    second: DrStevensWalk_6
   - first:
-      213: 7463311654852767759
-    second: Level2BuildingTiles_7
-  - first:
-      213: 3077374635925239772
-    second: Level2BuildingTiles_8
-  - first:
-      213: 4940480356544086405
-    second: Level2BuildingTiles_9
-  - first:
-      213: -2833282229677579994
-    second: Level2BuildingTiles_10
-  - first:
-      213: 3102334439291817252
-    second: Level2BuildingTiles_11
-  - first:
-      213: 8597761015613451869
-    second: Level2BuildingTiles_12
-  - first:
-      213: -47870938800810253
-    second: Level2BuildingTiles_13
+      213: -5533714558527271586
+    second: DrStevensWalk_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -128,91 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Level2BuildingTiles_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6af9c7c8d87c331438bf8b3440b9a33b
-      internalID: 9071791986080300385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level2BuildingTiles_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34cc10e5bd1394448ad2329933a7280a
-      internalID: 1620568786838972460
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level2BuildingTiles_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f606e1e2c5ab66748b1cc612d897539b
-      internalID: -4844491849772813857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level2BuildingTiles_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f51e1f26884fa2409808217112fbe0e
-      internalID: -4329453232844878458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level2BuildingTiles_4
+      name: DrStevensWalk_0
       rect:
         serializedVersion: 2
         x: 0
@@ -226,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39b68e11bd302cc4fb671fdba6889226
-      internalID: -361116452925658432
+      spriteID: c6ffe54109fff3c4db9ed8b3ff14e726
+      internalID: 2267634151290194839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2BuildingTiles_5
+      name: DrStevensWalk_1
       rect:
         serializedVersion: 2
         x: 64
@@ -247,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0491dac9425f07e44a32525487c0d639
-      internalID: -4952733411483476995
+      spriteID: 8480fdd6593ffc74f92e28eeea0b083a
+      internalID: 4677210135656368333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2BuildingTiles_6
+      name: DrStevensWalk_2
       rect:
         serializedVersion: 2
         x: 128
@@ -268,35 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63a677f8f6b69d14b956bdd5be1abeb4
-      internalID: 2298599683008967561
+      spriteID: 8c766c7ff412ec14990c6b980f2574da
+      internalID: -7849968152753590315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2BuildingTiles_7
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84f7b121ba957774aa6b2a0361eaf5f7
-      internalID: 7463311654852767759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level2BuildingTiles_8
+      name: DrStevensWalk_3
       rect:
         serializedVersion: 2
         x: 0
@@ -310,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66b18d1e7563730448f4fb64cb2e97ae
-      internalID: 3077374635925239772
+      spriteID: 1c59f1d5753e5d94abc0ff8a8ef5ba35
+      internalID: 8665239528268206720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2BuildingTiles_9
+      name: DrStevensWalk_4
       rect:
         serializedVersion: 2
         x: 64
@@ -331,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 850f1527a92cc87498c7072772096a27
-      internalID: 4940480356544086405
+      spriteID: fe965a79994c19b4cb86a52087c09409
+      internalID: -7271652426451271422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2BuildingTiles_10
+      name: DrStevensWalk_5
       rect:
         serializedVersion: 2
         x: 128
@@ -352,35 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbf17fc0512cb92439a1b65c053d980d
-      internalID: -2833282229677579994
+      spriteID: 5615467415daf704081a8eb0afe8036a
+      internalID: -4983779833774795735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2BuildingTiles_11
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b149109a9c44d0b4a9748195364b957c
-      internalID: 3102334439291817252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Level2BuildingTiles_12
+      name: DrStevensWalk_6
       rect:
         serializedVersion: 2
         x: 0
@@ -394,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b69ca2731b69d458d8410fdf370375
-      internalID: 8597761015613451869
+      spriteID: 36f9c05712b055c408bf02f02893e4de
+      internalID: 7853625615377508592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level2BuildingTiles_13
+      name: DrStevensWalk_7
       rect:
         serializedVersion: 2
         x: 64
@@ -415,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7da15e952c369e4ab0df6af5e418dfd
-      internalID: -47870938800810253
+      spriteID: 97f47acc4795ea94190c05e18759c7e4
+      internalID: -5533714558527271586
       vertices: []
       indices: 
       edges: []
