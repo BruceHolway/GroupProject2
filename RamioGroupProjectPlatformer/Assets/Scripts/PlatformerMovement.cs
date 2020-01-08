@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlatformerMovement : MonoBehaviour
 {
     public float moveSpeed = 1.0f;
-    public float jumpSpeed = 1.0f;
+    public static float jumpSpeed = 1.0f;
     public static bool grounded = false;
     Animator anim;
     void Start()
