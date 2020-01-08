@@ -15,6 +15,7 @@ public class Powerups : MonoBehaviour
     int bootUseDisplay;
     bool paraActive = false;
     bool bootActive = false;
+    bool paraUsed = false;
     public Text powerupText;
 
     void Start()
@@ -29,9 +30,18 @@ public class Powerups : MonoBehaviour
         {
             Paraglider();
         }
+
         if (Input.GetButton("Jump") && !PlatformerMovement.grounded && bootActive)
         {
             JumpBoots();
+        }
+
+        if (paraActive && PlatformerMovement.grounded && paraUsed)
+        {
+            GetComponent<Rigidbody2D>().gravityScale = regularGrav;
+            paraActive = false;
+            paraUsed = false;
+            powerupText.text = " ";
         }
     }
 
@@ -55,6 +65,7 @@ public class Powerups : MonoBehaviour
         if (collision.gameObject.tag == "Paraup" && bootActive) //tag paragliders as Paraup
         {
             bootActive = false;
+            bootUseDisplay = maxBootUses;
             Destroy(collision.gameObject);
             paraActive = true;
             powerupText.text = "This paraglider looks fragile... It will break after once use. Press Enter while in the air to use it.";
@@ -63,27 +74,26 @@ public class Powerups : MonoBehaviour
         if (collision.gameObject.tag == "Bootup") //tag double jump boots as Bootup
         {
             paraActive = false;
+            GetComponent<Rigidbody2D>().gravityScale = regularGrav;
             Destroy(collision.gameObject);
             bootActive = true;
             JumpBoots();
-            powerupText.text = "Jump boots! You can double jump with them" + bootUseDisplay + " more times!";
+            powerupText.text = "Jump boots! You can double jump with them " + bootUseDisplay + " more times!";
         }
     }
 
     void Paraglider()
     {
-        GetComponent<Rigidbody2D>().gravityScale = paraGrav;
-        if(PlatformerMovement.grounded == true)
+        if (!PlatformerMovement.grounded)
         {
-            GetComponent<Rigidbody2D>().gravityScale = regularGrav;
-            paraActive = false;
-            powerupText.text = " ";
+            GetComponent<Rigidbody2D>().gravityScale = paraGrav;
+            paraUsed = true;
         }
     }
 
-    void JumpBoots()
+    void JumpBoots() //jump boots is NOT working rn, will fix later
     {
-        if(jumpCount < jumpMax && bootUses < maxBootUses)
+        if(Input.GetButtonDown("Jump") && jumpCount < jumpMax && bootUses < maxBootUses)
         {
             jumpCount++;
             bootUses++;
