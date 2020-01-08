@@ -51,6 +51,23 @@ public class Powerups : MonoBehaviour
             JumpBoots();
             powerupText.text = "Jump boots! You can double jump with them" + bootUseDisplay + " more times!";
         }
+
+        if (collision.gameObject.tag == "Paraup" && bootActive) //tag paragliders as Paraup
+        {
+            bootActive = false;
+            Destroy(collision.gameObject);
+            paraActive = true;
+            powerupText.text = "This paraglider looks fragile... It will break after once use. Press Enter while in the air to use it.";
+        }
+
+        if (collision.gameObject.tag == "Bootup") //tag double jump boots as Bootup
+        {
+            paraActive = false;
+            Destroy(collision.gameObject);
+            bootActive = true;
+            JumpBoots();
+            powerupText.text = "Jump boots! You can double jump with them" + bootUseDisplay + " more times!";
+        }
     }
 
     void Paraglider()
