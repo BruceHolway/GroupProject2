@@ -7,6 +7,8 @@ public class Powerups : MonoBehaviour
     //script attatches to player
     public float paraGrav = 0.5f;
     public int regularGrav = 2;
+    int jumpCount;
+    public int jumpMax = 2;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -34,6 +36,14 @@ public class Powerups : MonoBehaviour
 
     void JumpBoots()
     {
+        if(Input.GetButtonDown("Jump") && jumpCount < jumpMax)
+        {
+            Jump();
+        }
+    }
 
+    void Jump()
+    {
+        GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 100 * PlatformerMovement.jumpSpeed));
     }
 }
